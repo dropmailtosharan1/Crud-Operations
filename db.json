@@ -1,0 +1,38 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "firstName": "Sharan",
+      "lastName": "Reddy",
+      "email": "sharanreddy@gmail.com",
+      "mobile": "9090905656",
+      "salary": "50000"
+    },
+    {
+      "id": 2,
+      "firstName": "Kumar",
+      "lastName": "Reddy",
+      "email": "kumarreddy@gmail.com",
+      "mobile": "9090908898",
+      "salary": "60000"
+    },
+    {
+      "id": 3,
+      "firstName": "Test",
+      "lastName": "Data",
+      "email": "testdata@gmail.com",
+      "mobile": "1234567890",
+      "salary": "565656"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
