@@ -5,33 +5,27 @@
       "firstName": "Sharan",
       "lastName": "Reddy",
       "email": "sharanreddy@gmail.com",
-      "mobile": "9090905656",
+      "mobile": "9808009890",
       "salary": "50000"
     },
     {
       "id": 2,
-      "firstName": "Kumar",
-      "lastName": "Reddy",
-      "email": "kumarreddy@gmail.com",
-      "mobile": "9090908898",
+      "firstName": "Krishna ",
+      "lastName": "Kumar ",
+      "email": "krishnakumar@gmail.com",
+      "mobile": "9000009000",
       "salary": "60000"
     },
     {
       "id": 3,
-      "firstName": "Test",
-      "lastName": "Data",
-      "email": "testdata@gmail.com",
-      "mobile": "1234567890",
-      "salary": "565656"
+      "firstName": "Pradeep",
+      "lastName": "Reddy",
+      "email": "pradeepreddy@gmail.com",
+      "mobile": "9898989890",
+      "salary": "70000"
     }
   ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
+  "comments": [],
   "profile": {
     "name": "typicode"
   }

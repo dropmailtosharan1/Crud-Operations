@@ -11,23 +11,15 @@ export class ApiService {
   constructor(private http : HttpClient) { }
 
   postEmployee(data:any){
-    return this.http.post<any>(this.urlLink, data).pipe(map((res:any)=>{
-      return res;
-    }))
+    return this.http.post<any>(this.urlLink, data)
   }
   getEmployee(){
-    return this.http.get<any>(this.urlLink).pipe(map((res:any)=>{
-      return res;
-    }))
+    return this.http.get<any>(this.urlLink)
   }
   updateEmployee(data:any, id:number){
-    return this.http.put<any>(this.urlLink, data +id).pipe(map((res:any)=>{
-      return res;
-    }))
+    return this.http.put(this.urlLink+"/"+id ,data)
   }
-  deleteEmployee(id:number){
-    return this.http.delete<any>(this.urlLink +id).pipe(map((res:any)=>{
-      return res;
-    }))
-  }
+  deleteEmployee(id:number){  
+  return this.http.delete(this.urlLink+"/"+id)
+   }
 }
