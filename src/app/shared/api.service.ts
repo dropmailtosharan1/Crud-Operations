@@ -6,6 +6,9 @@ import { map } from 'rxjs/operators';
   providedIn: 'root'
 })
 export class ApiService {
+  success(signup: any) {
+    throw new Error('Method not implemented.');
+  }
 
   urlLink="http://localhost:3000/posts";
   constructor(private http : HttpClient) { }
